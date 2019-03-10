@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		   <docker.image.prefix>abhisheksrivastava-app</docker.image.prefix>
+		   <docker.image.prefix>abhisheksrivastavadockerhub</docker.image.prefix>
 
 	</properties>
 	
