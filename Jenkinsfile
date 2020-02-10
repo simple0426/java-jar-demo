@@ -10,7 +10,7 @@ pipeline{
             }
             steps{
                 script{
-                    echo "mvn --version"
+                    sh "mvn --version"
                     //echo "WORKSPACE: ${env.WORKSPACE}"
                     //echo "NODE_NAME: ${env.NODE_NAME}"
                     //if ("${env.NODE_NAME}" == "master"){
