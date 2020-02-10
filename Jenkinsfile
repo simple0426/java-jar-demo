@@ -5,7 +5,7 @@ pipeline{
             agent{
                 docker{
                     image 'maven:3.6.3-jdk-8'
-                    args '-v /usr/local/apache-maven-3.6.3/conf/settings.xml:/root/.m2/settings.xml'
+                    args '-v /usr/local/apache-maven-3.6.3/conf/settings.xml:/root/.m2/settings.xml --entrypoint='
                 }
             }
             steps{
