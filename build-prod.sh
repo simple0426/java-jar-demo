@@ -10,7 +10,7 @@ vendor=1.0.0
 projectName=spring-hello-demo
 
 # 打包
-cd $WORKSPACE/$projectName
+cd $WORKSPACE
 mvn clean package -D skipTests
 
 #删除镜像下所有容器
