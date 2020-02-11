@@ -12,7 +12,7 @@ cd $WORKSPACE
 mvn clean package -D skipTests
 
 # 删除基于镜像的所有容器
-if [ $(docker ps -qf "name=$projectName") ];then 
+if [ $(docker ps -aqf "name=$projectName") ];then 
     docker rm -f $projectName
 fi
 
