@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#启用 prod 配置
-ActiveProfiles=prod
 #内部端口
 targetPort=8080
 #镜像版本号
